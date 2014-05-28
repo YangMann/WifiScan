@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_direct_measure"
+            android:id="@+id/button_direct_measure"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/button_bluetooth_control"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_bluetooth_control"
+            android:id="@+id/button_bluetooth_control"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_bluetooth_listen"
+            android:id="@+id/button_bluetooth_listen"
+            android:layout_below="@+id/button_bluetooth_control"
+            android:layout_centerHorizontal="true"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_continuous_measure_dashboard"
+            android:id="@+id/button_continuous"
+            android:layout_below="@+id/button_bluetooth_listen"
+            android:layout_centerHorizontal="true"/>
+</RelativeLayout>

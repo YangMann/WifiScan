@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="AndroidBootstrap">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://E:/GitHub/Android-Bootstrap-master/AndroidBootstrap/gen" />
+      <root url="file://E:/GitHub/Android-Bootstrap-master/AndroidBootstrap/src" />
+    </SOURCES>
+  </library>
+</component>

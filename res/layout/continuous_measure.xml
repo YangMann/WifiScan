@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="@string/button_continuous_measure"
+            android:id="@+id/button_continuous_measure"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"/>
+
+    <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/list_continuous_measurement"
+            android:layout_above="@+id/button_continuous_measure"
+            android:layout_centerHorizontal="true"/>
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_wifi_name"
+            android:layout_toLeftOf="@+id/button_continuous_measure"
+            android:layout_alignBottom="@+id/button_continuous_measure"
+            android:layout_alignParentStart="true"
+            android:inputType="text"
+            android:hint="@string/edit_wifi_name"/>
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/edit_measurement_count"
+            android:layout_above="@+id/edit_wifi_name"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/button_continuous_measure"
+            android:layout_toLeftOf="@+id/button_continuous_measure"
+            android:hint="@string/edit_measurement_count"/>
+</RelativeLayout>

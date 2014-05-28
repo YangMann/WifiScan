@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WifiScan</string>
+    <string name="button_direct_measure">Directly measure</string>
+    <string name="button_bluetooth_control">Bluetooth controller</string>
+    <string name="button_bluetooth_listen">Bluetooth listener</string>
+    <string name="menu_connect">Connect a device</string>
+    <string name="menu_discoverable">Make discoverable</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">scanning for devices…</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+
+    <!--  Controller -->
+    <string name="text_hint">Click button to record measurement</string>
+    <string name="button_measure">Measure</string>
+    <string name="measurement_done">Measurement done</string>
+    <string name="not_connected">Not connected</string>
+    <string name="edit_wifi_name">Please enter SSID</string>
+    <string name="button_continuous_measure">Start</string>
+    <string name="button_continuous_measure_stop">Stop</string>
+    <string name="edit_measurement_count">Please enter measurement times</string>
+    <string name="button_continuous_measure_dashboard">Continuous Measure</string>
+</resources>
